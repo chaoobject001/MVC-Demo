@@ -26,7 +26,7 @@ namespace PartyInvites.Controllers
         public ViewResult RsvpForm(GuestResponse guestResponse)
         {
             // TO DO: Email response to party organizer
-            return View("Thank You!", guestResponse);
+            return View("Thanks", guestResponse);
         }
     }
 }
